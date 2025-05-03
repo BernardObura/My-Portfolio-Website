@@ -56,15 +56,15 @@ document.addEventListener("DOMContentLoaded", function() {
     // ======== TYPEWRITER EFFECT ========
     // Array of roles for typewriter effect
     const roles = [
-        "Software Developer",
-        "Solutions Architect",
-        "Frontend Developer",
-        "Backend Developer",
-        "API Enthusiast",
-        "Mobile App Developer",
-        "Web Designer",
-        "UI/UX Developer",
-        "Full Stack Developer"
+        "Software Engineer",
+        "Technical Solutions Architect",
+        "Frontend Engineer",
+        "Backend Engineer",
+        "API Integration Specialist",
+        "Mobile Application Developer",
+        "Creative Web Designer",
+        "UI/UX Engineer",
+        "Full Stack Web Developer"
     ];
     
     // Initialize Typed.js

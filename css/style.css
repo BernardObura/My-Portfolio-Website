@@ -2,114 +2,111 @@
    General Styles
 ---------------------------*/
 :root {
-    /* Teal-based color palette */
-    --primary-color: #00a8cc;
-    --primary-color-rgb: 0, 168, 204; /* RGB values for primary color */
-    --secondary-color: #ff6b6b;
-    --secondary-color-rgb: 255, 107, 107; /* RGB values for secondary color */
-    --dark-color: #1a2a3a;
-    --dark-light-color: #204060;
-    --light-color: #f7f7f7;
-    --text-color: #303b47;
-    --text-color-light: #6c757d;
-    --text-white: #fff;
-    --border-color: #e5e5e5;
-    --card-bg: #fff;
-    --service-card-bg: rgba(0, 168, 204, 0.05);
-    --service-card-border: rgba(0, 168, 204, 0.15);
-    --placeholder-color: #667788;
-    
-    /* Material Design Shadows */
-    --card-shadow: 0 2px 5px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.05);
-    --box-shadow-hover: 0 8px 17px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
-    --form-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-    --elevation-1: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    --elevation-2: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-    --elevation-3: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-    --elevation-4: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-    --elevation-5: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-    
-    /* Other variables */
-    --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    --section-padding: 100px 0;
-    --progress-bg: #e9ecef;
-    --progress-color: #00a8cc;
-    --scrollbar-thumb: #00a8cc;
-    --scrollbar-track: #f5f5f5;
-    --scrollbar-width: 10px;
-    --gradient-primary: linear-gradient(135deg, #00a8cc 0%, #52d7f0 100%);
-    --gradient-secondary: linear-gradient(135deg, #ff6b6b 0%, #ffaa9c 100%);
-    --accent-color: #ff6b6b;
-    --border-radius: 12px;
-    --border-radius-small: 8px;
-    --input-bg: rgba(255, 255, 255, 0.9);
-    --error-color: #ff4d4d;
-    --success-color: #4CAF50;
-  }
+  /* Teal-based color palette */
+  --primary-color: #00a8cc;
+  --primary-color-rgb: 0, 168, 204;
+  --secondary-color: #ff6b6b;
+  --secondary-color-rgb: 255, 107, 107;
+  --dark-color: #1a2a3a;
+  --dark-light-color: #204060;
+  --light-color: #f7f7f7;
+  --text-color: #303b47;
+  --text-color-light: #6c757d;
+  --text-white: #fff;
+  --border-color: #e5e5e5;
+  --card-bg: #fff;
+  --service-card-bg: rgba(0, 168, 204, 0.05);
+  --service-card-border: rgba(0, 168, 204, 0.15);
+  --placeholder-color: #667788;
   
-  /* Dark Theme Variables */
-  .dark-theme {
-    --primary-color: #30c9e8;
-    --primary-color-rgb: 48, 201, 232; /* RGB values for primary color */
-    --secondary-color: #ff8585;
-    --secondary-color-rgb: 255, 133, 133; /* RGB values for secondary color */
-    --dark-color: #f7f7f7;
-    --dark-light-color: #e5e5e5;
-    --light-color: #0f1a25;
-    --text-color: #e5e5e5;
-    --text-color-light: #aaa;
-    --text-white: #fff;
-    --border-color: #2a3545;
-    --card-bg: #182530;
-    --service-card-bg: rgba(48, 201, 232, 0.05);
-    --service-card-border: rgba(48, 201, 232, 0.15);
-    --placeholder-color: #a0b0c0;
-    --card-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
-    --progress-bg: #2a3545;
-    --scrollbar-thumb: #30c9e8;
-    --scrollbar-track: #162330;
-    --input-bg: rgba(24, 37, 48, 0.8);
-    --form-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
-    --gradient-primary: linear-gradient(135deg, #30c9e8 0%, #78e5ff 100%);
-    --accent-color: #ff8585;
-  }
+  /* Material Design Shadows */
+  --card-shadow: 0 2px 5px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.05);
+  --box-shadow-hover: 0 8px 17px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+  --form-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  --elevation-1: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  --elevation-2: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  --elevation-3: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  --elevation-4: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  --elevation-5: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
   
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  html {
-    scroll-behavior: smooth;
-    scrollbar-width: thin;
-    scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
-  }
-  
-  body {
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    line-height: 1.6;
-    color: var(--text-color);
-    background-color: var(--light-color);
-    overflow-x: hidden;
-    transition: var(--transition);
-  }
-  
-  /* Scrollbar Styles */
-  ::-webkit-scrollbar {
-    width: var(--scrollbar-width);
-  }
-  
-  ::-webkit-scrollbar-track {
-    background: var(--scrollbar-track);
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background: var(--scrollbar-thumb);
-    border-radius: 10px;
-  }
-  
+  /* Other variables */
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --section-padding: 100px 0;
+  --progress-bg: #e9ecef;
+  --progress-color: #00a8cc;
+  --scrollbar-thumb: #00a8cc;
+  --scrollbar-track: #f5f5f5;
+  --scrollbar-width: 10px;
+  --gradient-primary: linear-gradient(135deg, #00a8cc 0%, #52d7f0 100%);
+  --gradient-secondary: linear-gradient(135deg, #ff6b6b 0%, #ffaa9c 100%);
+  --accent-color: #ff6b6b;
+  --border-radius: 12px;
+  --border-radius-small: 8px;
+  --input-bg: rgba(255, 255, 255, 0.9);
+  --error-color: #ff4d4d;
+  --success-color: #4CAF50;
+}
+
+.dark-theme {
+  --primary-color: #30c9e8;
+  --primary-color-rgb: 48, 201, 232;
+  --secondary-color: #ff8585;
+  --secondary-color-rgb: 255, 133, 133;
+  --dark-color: #f7f7f7;
+  --dark-light-color: #e5e5e5;
+  --light-color: #0f1a25;
+  --text-color: #e5e5e5;
+  --text-color-light: #aaa;
+  --text-white: #fff;
+  --border-color: #2a3545;
+  --card-bg: #182530;
+  --service-card-bg: rgba(24, 37, 48, 0.8);
+  --service-card-border: rgba(48, 201, 232, 0.3);
+  --placeholder-color: #a0b0c0;
+  --card-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+  --progress-bg: #2a3545;
+  --scrollbar-thumb: #30c9e8;
+  --scrollbar-track: #162330;
+  --input-bg: rgba(24, 37, 48, 0.8);
+  --form-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  --gradient-primary: linear-gradient(135deg, #30c9e8 0%, #78e5ff 100%);
+  --accent-color: #ff8585;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--text-color);
+  background-color: var(--light-color);
+  overflow-x: hidden;
+  transition: var(--transition);
+}
+
+::-webkit-scrollbar {
+  width: var(--scrollbar-width);
+}
+
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-track);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border-radius: 10px;
+}
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -523,11 +520,11 @@
     position: relative;
     overflow: hidden;
     height: 100%;
-    background-color: var(--service-card-bg);
-    border: 1px solid var(--service-card-border);
-  }
-  
-  .service-card::before {
+    background-color: var(--card-bg); /* Changed from --service-card-bg to use --card-bg */
+    border: 1px solid var(--border-color); /* Changed from --service-card-border to use --border-color */
+}
+
+.service-card::before {
     content: '';
     position: absolute;
     top: 0;
@@ -536,15 +533,15 @@
     height: 100%;
     background: var(--gradient-primary);
     transition: var(--transition);
-  }
-  
-  .service-card:hover {
+}
+
+.service-card:hover {
     transform: translateY(-8px);
     box-shadow: var(--elevation-3);
     background-color: rgba(var(--primary-color-rgb), 0.08);
-  }
-  
-  .service-icon {
+}
+
+.service-icon {
     font-size: 40px;
     margin-bottom: 20px;
     color: var(--primary-color);
@@ -552,41 +549,40 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
-  }
-  
-  .service-card h3 {
+}
+
+.service-card h3 {
     font-size: 20px;
     margin-bottom: 15px;
     color: var(--dark-color);
-  }
-  
-  .service-card p {
+}
+
+.service-card p {
     margin-bottom: 20px;
     color: var(--text-color);
     font-weight: 400;
-  }
-  
-  .service-features {
+}
+
+.service-features {
     list-style: none;
     text-align: left;
     margin-top: 15px;
-  }
-  
-  .service-features li {
+}
+
+.service-features li {
     margin-bottom: 8px;
     position: relative;
     padding-left: 25px;
     color: var(--text-color-light);
     font-weight: 500;
-  }
-  
-  .service-features li i {
+}
+
+.service-features li i {
     position: absolute;
     left: 0;
     top: 4px;
     color: var(--primary-color);
-  }
-  
+}
   /*---------------------------
      Projects Section Styles
   ---------------------------*/
@@ -1254,4 +1250,6 @@
       justify-content: center;
     }
   }
+  
+
   
