@@ -240,9 +240,9 @@ document.addEventListener('DOMContentLoaded', () => {
         strings: [
           'Software Developer',
           'Full Stack Developer',
-          'Frontend Specialist',
+          'Frontend Developer',
           'Backend Developer',
-          'UI/UX Enthusiast',
+          'UI/UX Designer',
         ],
         typeSpeed: 50,
         backSpeed: 30,
